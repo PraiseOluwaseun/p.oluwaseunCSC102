@@ -1,8 +1,8 @@
 #Input values
-P = input("\n Enter the principal amount: ")
-T = input("\n Enter the time: ")
-R = input("\n Enter the rate(as a decimal): ") 
-n =  input("\n Enter the compounding time")
+P = int(input("\n Enter the principal amount: "))
+T = int(input("\n Enter the time: "))
+R = int(input("\n Enter the rate(as a decimal): ")) 
+n =  int(input("\n Enter the compounding time"))
 
 # calculate simple interest and commpound interest
 Simpleinterest = P * T * R
